@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        maven "3.9.2"
+        maven "mvn-3.9.2"
     }
     stages {
         stage('Clean and Install') {
